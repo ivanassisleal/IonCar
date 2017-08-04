@@ -7,6 +7,7 @@ import { HttpModule  } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { CarroPage } from '../pages/carro/carro';
 
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
@@ -14,7 +15,8 @@ import 'rxjs/add/operator/toPromise';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    CarroPage,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import 'rxjs/add/operator/toPromise';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    CarroPage
   ],
   providers: [
     StatusBar,
